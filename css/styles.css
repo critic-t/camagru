@@ -1,0 +1,23 @@
+BODY {
+	background-color:white;
+	color:black;
+	margin:0px;
+}
+
+H1 {
+	color:black;
+	text-align:center;
+}
+
+H2 {
+	color:black;
+}
+
+FOOTER {
+	border-top:2px solid black;
+	color:black;
+	bottom:0;
+	position:absolute;
+	text-align:center;
+	width:100%;
+}
