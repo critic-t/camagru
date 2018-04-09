@@ -13,6 +13,7 @@
         <h1 align="center" style="margin: 0px auto;">Gallery</h1>
         <table align="center" style="margin: 0px auto;">
             <?php
+            error_reporting(0);
             session_start();
             $condition = $_GET['condition'];
             if ($condition == 'next') {
@@ -61,7 +62,6 @@
             }else{
                 echo '<button onclick="goBack()">Go Back</button>';
             }
-        
         ?>
         </div>
 

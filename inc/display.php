@@ -1,5 +1,5 @@
 <?php
-
+error_reporting(0);
     include '../config/conn.php';
 
     session_start();
@@ -21,7 +21,6 @@
     $string = $image_url;
     $string = explode('/', $string);
     $image_name = $string[2];
-
 ?>
 
 <!DOCTYPE html>

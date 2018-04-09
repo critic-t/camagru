@@ -1,5 +1,5 @@
 <?php
-    
+error_reporting(0);
 session_start();
 $condition = $_GET['condition'];
 if ($condition == 'next') {
@@ -19,6 +19,10 @@ if ($condition == 'next') {
         <link rel="stylesheet" href="css/gallery.css">
     </head>
     <body>
+    <ul>
+        <li><a href="../camagru.php">Home</a></li>
+        <li><a href="./logout.php">Logout</a></li>
+    </ul>
         <h1 align="center" style="margin: 0px auto;">Gallery</h1>
         <table align="center" style="margin: 0px auto;">
             <?php
